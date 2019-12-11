@@ -1,0 +1,8 @@
+{
+  "name": "arena-playlist",
+  "redirects": [
+    {
+      "source": "/*", "destination": "/$1" 
+    }
+  ]
+}

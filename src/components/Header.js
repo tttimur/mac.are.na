@@ -53,7 +53,7 @@ class Header extends Component {
       <a
         className={'toArena'}
         target={'_blank'}
-        href={`https://www.are.na/charles-broskoski/mac-are-na`}
+        href={`https://www.are.na/toronto/playlist-mudkjtmrjz8`}
       >
         <img alt={'Find on are.na'} src={arrow} />
       </a>
@@ -66,7 +66,7 @@ class Header extends Component {
         <h1>
           <Link to={`/`}>
             <img className="logo" src={logo} alt="logo" />
-            {'mac.are.na'}
+            {'Toronto'}
           </Link>
           {this.handleHeaderText()}
         </h1>
@@ -79,7 +79,7 @@ class Header extends Component {
 Header.propTypes = {
   currentOpenPlaylist: PropTypes.any,
   isCurrentPlaylistLoaded: PropTypes.bool,
-  location: PropTypes.any
+  location: PropTypes.any,
 }
 
 export default Header
